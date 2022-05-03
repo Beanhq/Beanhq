@@ -1,30 +1,30 @@
 <html>
   <body>
     <table>
-      <tr>
+    <tr>
         <td></td>
         <td>Lunes</td>
         <td>Martes</td>
         <td>Miércoles</td>
         <td>Jueves</td>
         <td>Viernes</td>
-      </tr>
-      <tr>
+    </tr>
+    <tr>
         <td>10:30</td>
         <td>Matemáticas</td>
         <td>Geografía</td>
         <td>Física</td>
         <td>Dibujo</td>
         <td>Matemáticas</td>
-      </tr>
-      <tr>
+    </tr>
+    <tr>
         <td>11:30</td>
         <td>Inglés</td>
         <td>Lenguaje</td>
         <td>Geografía</td>
         <td>Química</td>
         <td>Física</td>
-      </tr>
-    </table>
-  </body>
- </html>
+    </tr>
+</table>
+</body>
+  </html>
