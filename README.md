@@ -1,8 +1,8 @@
 <html>
-  <head>
-    <title>Menu Desplegable</title>
+	<head>
+		<title>Menu Desplegable</title>
 		<style type="text/css">
-      
+			
 			* {
 				margin:0px;
 				padding:0px;
@@ -21,8 +21,8 @@
 			.nav > li {
 				float:left;
 			}
-
-      .nav li a {
+			
+			.nav li a {
 				background-color:#000;
 				color:#fff;
 				text-decoration:none;
@@ -47,11 +47,11 @@
 			.nav li ul li {
 				position:relative;
 			}
-      
-      .nav li ul li ul {
+			
+			.nav li ul li ul {
 				right:-140px;
 				top:0px;
-      }
+			}
 			
 		</style>
 	</head>
