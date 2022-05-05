@@ -1,47 +1,52 @@
+<!DOCTYPE html>
 <html>
-	<body>
-		<nav class="menuCSS3">
-		<ul>
-			<li><a href="#">Inicio</a></li>
-			<li><a href="#">Empleados</a>
-				<ul>
-					<li><a href="#">Juan</a></li>
-					<li><a href="#">Paco</a></li>
-					<li><a href="#">Ramón</a></li>
-					<li><a href="#">María</a></li>
-				</ul>
-			</li>
-			<li><a href="#">FAQ</a></li>
-			<li><a href="#">Contacto</a>
-				<ul>
-					<li><a href="#">Email</a></li>
-					<li><a href="#">Mapa</a></li>
-				</ul>
+<head>
+<style>
 
-			</li>
-		</ul>
-	</nav>
-.menuCSS3 ul {
-		display: flex;
-		padding: 0;
-		margin: 0;
-		list-style: none;
-	}
-	.menuCSS3 a {
-		display: block;
-		padding: 2em;
-		background-color: #F9B53C;
-		text-decoration: none;
-		color: #191C26;
-	}
-	.menuCSS3 a:hover {
-		background-color: #CC673B;
-	}
-	.menuCSS3 ul li ul {
-		display: none;
-	}
-	.menuCSS3 ul li a:hover + ul, .menuCSS3 ul li ul:hover {
-		display: block;
-	}
-	</body>
-	</html>
+.dropbtn {
+    background-color: black;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: lightgrey;
+    min-width: 200px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: white;}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn {background-color: grey;}
+
+</style>
+</head>
+
+<div class="dropdown">
+<button class="dropbtn">Redes sociales</button>
+<div class="dropdown-content">
+
+<a href="https://www.google.com">Google</a>
+<a href="https://www.facebook.com">Facebook</a>
+<a href="https://www.youtube.com">YouTube</a>
+
+</div>
+</div>
+</body>
+</html>
